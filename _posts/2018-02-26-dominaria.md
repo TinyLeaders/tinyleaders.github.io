@@ -4,9 +4,11 @@ layout: post
 ---
 
 <h4>
-    <li> Mox Diamond is banned </li>
-    <li> Chrome Mox is banned </li>
-    <li> Sword of Body and Mind is unbanned </li>
+<ul>
+    <li> {% card Mox Diamond %} is banned </li>
+    <li> {% card Chrome Mox %} is banned </li>
+    <li> {% card Sword of Body and Mind %} is unbanned </li>
+</ul>
 </h4>
 
 

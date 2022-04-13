@@ -23,16 +23,16 @@ Visual ban list: <a href="https://www.moxfield.com/decks/hSgNQ8l2O06EO6ZP00i58Q"
     {% assign my_integer = site.data.banned.banned.size | divided_by: 2 | plus: 1  %} 
     {% for card in site.data.banned.banned %}
     {% if forloop.index == 1 %}
-        <div class="column">
+        <ul class="column">
     {% elsif forloop.index == my_integer %}
-        </div>
-        <div class="column">
+        </ul>
+        <ul class="column">
     {% endif %}
-    <li class="{{ my_integer }}">
-{{ card }}
+    <li>
+<a class="deckbox_link" target="_blank" href="https://deckbox.org/mtg/ {{ card }} ">{{ card }}</a>
     </li>
     {% endfor %}
-</div>
+</ul>
 </div>
 
 ### Banned as commander
@@ -41,14 +41,16 @@ Visual ban list: <a href="https://www.moxfield.com/decks/hSgNQ8l2O06EO6ZP00i58Q"
     {% assign my_integer = site.data.banned.as_commander.size | divided_by: 2 | plus: 1 %} 
     {% for card in site.data.banned.as_commander %}
     {% if forloop.index == 1 %}
-        <div class="column">
+        <ul class="column">
     {% elsif forloop.index == my_integer %}
-        </div>
-        <div class="column">
+        </ul>
+        <ul class="column">
     {% endif %}
-    <li class="{{ my_integer }}">
-{{ card }}
+    <li>
+
+<a class="deckbox_link" target="_blank" href="https://deckbox.org/mtg/ {{ card }} ">{{ card }}</a>
     </li>
     {% endfor %}
+</ul>
 </div>
-</div>
+

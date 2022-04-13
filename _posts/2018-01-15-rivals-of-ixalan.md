@@ -4,10 +4,12 @@ layout: post
 ---
 
 <h4>
-    <li> Goblin Recruiter is unbanned</li>
-    <li> True Name Nemesis is banned</li>
-    <li> Gaea's Craddle is banned</li>
+<ul>
+    <li> {% card Goblin Recruiter %} is unbanned</li>
+    <li> {% card True-Name Nemesis %} is banned</li>
+    <li> {% card Gaea's Cradle %} is banned</li>
     <li> Four (or more) colors decks are legal</li>
+</ul>
 </h4>
 
 
