@@ -5,80 +5,50 @@ sitemap: true
 permalink: /banned-list/
 ---
 
+The Tiny Leaders cardpool consists of all regulation-sized Magic cards publicly released by Wizards of the Coast other than those with silver borders, gold borders or acorn-shaped security stamps.
+
+___
+
 # Banned List
+
+* All cards that refer to the ante mechanic (full list [here](https://gatherer.wizards.com/Pages/Search/Default.aspx?action=advanced&text=+%5b%22%20ante.%22%5d))
+* All cards that Wizards has removed from constructed formats (full list [here](https://magic.wizards.com/en/articles/archive/news/depictions-racism-magic-2020-06-10))
+* All cards with the Conspiracy card type (full list [here](https://gatherer.wizards.com/Pages/Search/Default.aspx?action=advanced&special=true&type=+%5b%22Conspiracy%22%5d))
+
 
 Visual ban list: <a href="https://www.moxfield.com/decks/hSgNQ8l2O06EO6ZP00i58Q" target="_">https://www.moxfield.com/decks/hSgNQ8l2O06EO6ZP00i58Q</a>
 
 ### Banned
-* Ancestral Recall
-* Balance
-* Black Lotus
-* Channel
-* Chaos Orb
-* Chrome Mox
-* Counterbalance
-* Court of Cunning
-* Deflecting Swat
-* Demonic Tutor
-* Earthcraft
-* Edric, Spymaster of Trest
-* Falling Star
-* Fastbond
-* Fierce Guardianship
-* Gaea's Cradle
-* Grindstone
-* Hermit Druid
-* High Tide
-* Imperial Seal
-* Jeweled Lotus
-* Karakas
-* Library of Alexandria
-* Lion's Eye Diamond
-* Maddening Hex
-* Mana Crypt
-* Mana Drain
-* Mana Vault
-* Metalworker
-* Mind Twist
-* Mishra's Workshop
-* Mox Amber
-* Mox Diamond
-* Mox Emerald
-* Mox Jet
-* Mox Opal
-* Mox Pearl
-* Mox Ruby
-* Mox Sapphire
-* Mystical tutor
-* Necropotence
-* Oko, Thief of Crowns
-* Price of progress
-* Shahrazad
-* Skullclamp
-* Sol Ring
-* Strip Mine
-* Survival of the Fittest
-* Teferi, Time Raveler
-* Thasa's Hideous Laughter
-* Thassa's Oracle
-* The Tabernacle at Pendrell Vale
-* Time Vault
-* Time Walk
-* Timetwister
-* Tolarian Academy
-* True-Name Nemesis
-* Umezawa's Jitte
-* Vampiric Tutor
-* Wheel of Fortune
-* Yawgmoth's Will
+<div class="container">
+    {% assign my_integer = site.data.banned.banned.size | divided_by: 2 | plus: 1  %} 
+    {% for card in site.data.banned.banned %}
+    {% if forloop.index == 1 %}
+        <div class="column">
+    {% elsif forloop.index == my_integer %}
+        </div>
+        <div class="column">
+    {% endif %}
+    <li class="{{ my_integer }}">
+{{ card }}
+    </li>
+    {% endfor %}
+</div>
+</div>
 
 ### Banned as commander
-* Ashiok, Dream Render
-* Derevi, Empyrial Tactician
-* Edric, Spymaster of Trest
-* Erayo, Soratami Ascendant
-* Oko, Thief of Crowns
-* Rofellos, Llanowar Emissary
-* Teferi, Time Raveler
-* Uro, Titan of Nature's Wrath
-* Wrenn and Six
+
+<div class="container">
+    {% assign my_integer = site.data.banned.as_commander.size | divided_by: 2 | plus: 1 %} 
+    {% for card in site.data.banned.as_commander %}
+    {% if forloop.index == 1 %}
+        <div class="column">
+    {% elsif forloop.index == my_integer %}
+        </div>
+        <div class="column">
+    {% endif %}
+    <li class="{{ my_integer }}">
+{{ card }}
+    </li>
+    {% endfor %}
+</div>
+</div>
