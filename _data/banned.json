@@ -39,7 +39,7 @@
     "Mox Pearl",
     "Mox Ruby",
     "Mox Sapphire",
-    "Mystical tutor",
+    "Mystical Tutor",
     "Necropotence",
     "Oko, Thief of Crowns",
     "Price of progress",
@@ -49,7 +49,7 @@
     "Strip Mine",
     "Survival of the Fittest",
     "Teferi, Time Raveler",
-    "Thasa's Hideous Laughter",
+    "Tasha's Hideous Laughter",
     "Thassa's Oracle",
     "The Tabernacle at Pendrell Vale",
     "Time Vault",
@@ -65,11 +65,8 @@
   "as_commander": [
     "Ashiok, Dream Render",
     "Derevi, Empyrial Tactician",
-    "Edric, Spymaster of Trest",
     "Erayo, Soratami Ascendant",
-    "Oko, Thief of Crowns",
     "Rofellos, Llanowar Emissary",
-    "Teferi, Time Raveler",
     "Uro, Titan of Nature's Wrath",
     "Wrenn and Six"
   ]
