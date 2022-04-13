@@ -19,7 +19,7 @@ All cards in your deck must have a mana value of 3 or less.
 <li>Players choose a legendary creature, planeswalker or eligible partner pair as the commander for their deck.</li>
 <li><b>A Tiny Leader deck must contain exactly 50 cards</b>, including the commander. If you’re playing a companion, it must adhere to color identity, singleton rules and mana value rule.</li>
 <li>With the exception of basic lands, no two cards in the deck may have the same English name. Some cards (e.g. Relentless Rats) may have rules text that overrides this restriction.</li>
-<li>You can have a sideboard of exactly 10 cards.</li>
+<li>You can have a sideboard of exactly 10 cards. The singleton rule applies to both the combined deck and sideboard.</li>
 </ol>
 
 ### Play Rules
@@ -29,4 +29,4 @@ All cards in your deck must have a mana value of 3 or less.
 <li>In the cause of Partners you can only cast one of them from the command zone during a game, you can switch commander between matches.</li>   
 <li>If a commander is in a graveyard or in exile and that card was put into that zone since the last time state-based actions were checked, its owner may put it into the command zone. If a commander would be put into its owner’s hand or library from anywhere, its owner may put it into the command zone instead. This replacement effect may apply more than once to the same event.</li>
 <li>Being a commander is not a characteristic [MTG CR109.3], it is a property of the card and tied directly to the physical card. As such, “commander-ness” cannot be copied or overwritten by continuous effects. The card retains it’s commander-ness through any status changes, and is still a commander even when controlled by another player.</li>
-</olstart>
+</ol>
