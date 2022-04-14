@@ -1,6 +1,8 @@
 title: "Tiny Leaders"
-author: "The Tiny Leaders: Reborn committee"
-description: "<i>TLR Commitee</i>"
+author: "Jerakin"
+description: "A Magic: the Gathering® format consisting of tiny cards in a tiny deck."
+tagline: "A Magic: the Gathering® format consisting of tiny cards in a tiny deck."
+url: "https://www.tinyleaders.org"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
@@ -33,8 +35,9 @@ comments:
 #  disqus_shortname: ""    # see https://disqus.com/
 #  isso_domain: ""         # see https://posativ.org/isso/
 
-#plugins:
-# - jekyll-feed
+plugins:
+  - jekyll-seo-tag
+
 include:
   - _pages
 

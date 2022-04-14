@@ -21,7 +21,7 @@ gem install jekyll bundler
 ```
 3. Change into your our directory
 ```
-cd tinyleader
+cd tinyleaders.github.io
 ```
 4. Install missing gems
 ```
@@ -35,9 +35,9 @@ bundle exec jekyll serve
 You should see something like:
 
 ```
-Configuration file: /Users/Jerakin/Documents/repositories/tinyleader/_config.yml
-            Source: /Users/Jerakin/Documents/repositories/tinyleader
-       Destination: /Users/Jerakin/Documents/repositories/tinyleader/_site
+Configuration file: /Users/Jerakin/Documents/repositories/tinyleaders.github.io/_config.yml
+            Source: /Users/Jerakin/Documents/repositories/tinyleaders.github.io
+       Destination: /Users/Jerakin/Documents/repositories/tinyleaders.github.io/_site
  Incremental build: disabled. Enable with --incremental
       Generating...
        Jekyll Feed: Generating feed for posts

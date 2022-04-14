@@ -3,14 +3,8 @@
 <title>{% if page.title %}{{ page.title | escape }} // {% endif %} Tiny Leaders — a mtg format for Magic: the Gathering®</title>
 <meta charset="{{ site.encoding }}">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="author" content="{{ page.author | default: site.author | escape }}">
 <meta name="generator" content="Jekyll v{{ jekyll.version }}">
-<meta name="apple-mobile-web-app-title" content="tinyleaders">
-<link rel="canonical" href="{{ page.url | absolute_url }}">
-<meta name="twitter:title" content="Tiny Leaders">
-<meta property="og:site_name" content="Tiny Leaders a mtg format">
-<meta property="og:title" content="Tiny Leaders">
-<meta property="og:description" content="Tiny Leaders // A Magic: the Gathering® format consisting of tiny cards in a tiny deck.">
+{% seo seo title=false %}
 {% if site.show_frame %}
 <link rel="stylesheet" href="{{ "assets/css/frame.css" | relative_url }}">
 <link rel="stylesheet" href="{{ "assets/css/deckbox_tooltip.css" | relative_url }}">
@@ -19,6 +13,7 @@
 {% endif %}
 {% if site.plugins contains "jekyll-feed" %}<link rel="alternate" href="{{ site.feed.path | default: "feed.xml" | relative_url }}" type="application/atom+xml" title="{{ site.title }}">{% endif %}
 <script src="https://deckbox.org/assets/external/tooltip.js"></script>
+<link rel="shortcut icon" type="image/png" href="{{ "favicon.svg" | relative_url }}"">
 {% if page.mathjax or site.mathjax %}
 <link rel="stylesheet" href="{{ "assets/katex/katex.min.css" | relative_url }}">
 <script defer src="{{ "assets/katex/katex.min.js" | relative_url }}"></script>
