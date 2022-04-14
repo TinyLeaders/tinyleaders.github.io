@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "Faq"
+permalink: /faq/
 ---
 
-Play Rule 8 says you can only cast one of them _command zone_. Does that mean you can use other means to get it into your hand and cast it?
+Rule 8 says you can only cast one of them _command zone_. Does that mean you can use other means to get it into your hand and cast it?
 
 > Correct! If you manage to get it into your hand or graveyard you can cast it from there.
 

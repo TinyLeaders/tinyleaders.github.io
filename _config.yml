@@ -21,14 +21,12 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "rules.md"}
   - {file: "banned_list.md"}
   - {file: "faq.md"}
-  - {file: "tlr_project.md"}
-  - {file: "archive.html"}
+  - {file: "formats.html"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
 #  - {title: Mail, icon: envelope, url: "mailto:someone@somewhere.com"}
-  - {title: Discord, icon: discord, url: "https://discord.gg/jq9KWHAdTm"}
-  - {title: Facebook, icon: facebook, url: "https://www.facebook.com/TinyLeadersReborn"}
-  - {title: Moxfield, icon: diamond, url: "https://www.moxfield.com/users/TLR_Commitee"}
+  - {title: Discord, icon: discord, url: "https://discord.gg/PQSpW69kcn"}
+  - {title: Moxfield, icon: diamond, url: "https://www.moxfield.com/decks/public?format=tinyLeaders"}
 #  - {title: Subscribe, icon: rss, url: "/feed.xml"}
 
 comments:
@@ -37,3 +35,10 @@ comments:
 
 #plugins:
 # - jekyll-feed
+include:
+  - _pages
+
+exclude:
+  - .idea
+  - README.md
+  - UNLICENSE.txt

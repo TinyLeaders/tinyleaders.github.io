@@ -2,11 +2,12 @@
 title: "Rules"
 layout: post
 sitemap: True
+permalink: /rules/
 ---
 
 
-### Tiny Leaders Mana Cost Rule
-_Referred to as the "Mana Rule" or "MV 3"_
+## Tiny Leaders Mana Cost Rule
+_Referred to as the "Mana Rule"_
 
 All cards in your deck must have a mana value of 3 or less.
 * X in cards mana cost is considered to be 0
@@ -15,18 +16,18 @@ All cards in your deck must have a mana value of 3 or less.
 * The mana cost of MDFC cards is equal to the highest of either sides (Valki, God of Lies / Tibalt, Cosmic Impostor, have to 2 and 7 and is therefore not allowed).
 
 
-### Deck Construction Rules
+## Deck Construction Rules
 <ol>
 <li>All cards, including commander, must have mana value of 3 or less.</li>
 <li>Players choose a legendary creature, planeswalker or eligible partner pair as the commander for their deck.</li>
-<li><b>A tiny leaders deck must contain exactly 50 cards</b>, including the commander. If you’re playing a companion, it must adhere to color identity, singleton rules and mana value rule.</li>
+<li>A tiny leaders deck must contain exactly 50 cards, including the commander. If you’re playing a companion, it must adhere to color identity, singleton rules and mana value rule.</li>
 <li>With the exception of basic lands, no two cards in the deck may have the same English name. Some cards (e.g. Relentless Rats) may have rules text that overrides this restriction.</li>
 <li>You can have a sideboard of exactly 10 cards. The singleton rule applies to both the combined deck and sideboard.</li>
 </ol>
 
-### Play Rules
+## Play Rules
 <ol start="6">
-<li><b>Players begin the game with 20 life.</b></li>
+<li>Players begin the game with 20 life.</li>
 <li>Commanders begin the game in the Command Zone. While a commander is in the command zone, it may be cast, subject to the normal timing restrictions for casting creatures. Its owner must pay for each time it was previously cast from the command zone; this is an additional cost.</li>
 <li>In the cause of Partners you can only cast one of them from the command zone during a game, you can switch commander between matches.</li>   
 <li>If a commander is in a graveyard or in exile and that card was put into that zone since the last time state-based actions were checked, its owner may put it into the command zone. If a commander would be put into its owner’s hand or library from anywhere, its owner may put it into the command zone instead. This replacement effect may apply more than once to the same event.</li>
