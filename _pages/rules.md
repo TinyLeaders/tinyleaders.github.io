@@ -11,10 +11,9 @@ _Referred to as the "Mana Rule"_
 
 All cards in your deck must have a mana value of 3 or less.
 * X in cards mana cost is considered to be 0
-* Split cards mana cost is equal to the addition of both sides of the card (Beck // Call for example is equal to 8).
-* The mana cost of adventure cards is equal to the mana value of the creature part of the card (Giant Killer for example is equal to 1).
-* The mana cost of MDFC cards is equal to the highest of either sides (Valki, God of Lies / Tibalt, Cosmic Impostor, have to 2 and 7 and is therefore not allowed).
-
+* Split cards mana cost is equal to the addition of both sides of the card ({% card Beck // Call %} for example is equal to 8).
+* The mana cost of adventure cards is equal to the mana value of the creature part of the card ({% card Giant Killer %} for example is equal to 1).
+* The mana cost of MDFC cards is equal to the highest of either sides ({% card Valki, God of Lies %} // {% card Tibalt, Cosmic Impostor %}, have to 2 and 7 and is therefore not allowed).
 
 ## Deck Construction Rules
 <ol>
