@@ -6,6 +6,8 @@ sitemap: True
 
 
 ### Tiny Leaders Mana Cost Rule
+_Referred to as the "Mana Rule" or "MV 3"_
+
 All cards in your deck must have a mana value of 3 or less.
 * X in cards mana cost is considered to be 0
 * Split cards mana cost is equal to the addition of both sides of the card (Beck // Call for example is equal to 8).
@@ -17,7 +19,7 @@ All cards in your deck must have a mana value of 3 or less.
 <ol>
 <li>All cards, including commander, must have mana value of 3 or less.</li>
 <li>Players choose a legendary creature, planeswalker or eligible partner pair as the commander for their deck.</li>
-<li><b>A Tiny Leader deck must contain exactly 50 cards</b>, including the commander. If you’re playing a companion, it must adhere to color identity, singleton rules and mana value rule.</li>
+<li><b>A tiny leaders deck must contain exactly 50 cards</b>, including the commander. If you’re playing a companion, it must adhere to color identity, singleton rules and mana value rule.</li>
 <li>With the exception of basic lands, no two cards in the deck may have the same English name. Some cards (e.g. Relentless Rats) may have rules text that overrides this restriction.</li>
 <li>You can have a sideboard of exactly 10 cards. The singleton rule applies to both the combined deck and sideboard.</li>
 </ol>
