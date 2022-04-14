@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
-<title>{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}</title>
+<title>{% if page.title %}{{ page.title | escape }} // {% endif %} Tiny Leaders — a mtg format for Magic: the Gathering®</title>
 <meta charset="{{ site.encoding }}">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="author" content="{{ page.author | default: site.author | escape }}">
 <meta name="generator" content="Jekyll v{{ jekyll.version }}">
+<meta name="apple-mobile-web-app-title" content="tinyleaders">
 <link rel="canonical" href="{{ page.url | absolute_url }}">
+<meta name="twitter:title" content="Tiny Leaders">
+<meta property="og:site_name" content="Tiny Leaders a mtg format">
+<meta property="og:title" content="Tiny Leaders">
+<meta property="og:description" content="Tiny Leaders // A Magic: the Gathering® format consisting of tiny cards in a tiny deck.">
 {% if site.show_frame %}
 <link rel="stylesheet" href="{{ "assets/css/frame.css" | relative_url }}">
 <link rel="stylesheet" href="{{ "assets/css/deckbox_tooltip.css" | relative_url }}">
