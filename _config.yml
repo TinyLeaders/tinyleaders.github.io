@@ -27,8 +27,8 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
 #  - {title: Mail, icon: envelope, url: "mailto:someone@somewhere.com"}
+  - {title: Reddit, icon: reddit, url: "https://www.reddit.com/r/TinyLeaders/"}
   - {title: Discord, icon: discord, url: "https://discord.gg/PQSpW69kcn"}
-  - {title: Moxfield, icon: diamond, url: "https://www.moxfield.com/decks/public?format=tinyLeaders"}
 #  - {title: Subscribe, icon: rss, url: "/feed.xml"}
 
 comments:
