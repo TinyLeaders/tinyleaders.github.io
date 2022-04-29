@@ -1,0 +1,7 @@
+.deckbox_i_tooltip.image {
+ position:absolute;
+ z-index:200;
+ border:0 solid #ccc;
+ background-color:transparent;
+ padding:0 0
+}
