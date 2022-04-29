@@ -18,7 +18,7 @@ All cards in your deck must have a mana value of 3 or less.
 ## Deck Construction Rules
 <ol>
 <li>All cards, including commander, must have mana value of 3 or less.</li>
-<li>Players choose a legendary creature, planeswalker or eligible partner pair as the commander for their deck.</li>
+<li>Players choose a legendary creature, planeswalker or an eligible partner pair as the commander(s) for their deck.</li>
 <li>A tiny leaders deck must contain exactly 50 cards, including the commander. If you’re playing a companion, it must adhere to color identity, singleton rules and mana value rule.</li>
 <li>With the exception of basic lands, no two cards in the deck may have the same English name. Some cards (e.g. Relentless Rats) may have rules text that overrides this restriction.</li>
 <li>You can have a sideboard of exactly 10 cards. The singleton rule applies to both the combined deck and sideboard.</li>
